@@ -14,7 +14,7 @@
  *
  * The result should be 9
  */
-function getMatrixElementsSum(/* matrix */) {
+function getMatrixElementsSum(matrix) {
   let sum = 0;
   for (let j = 0; j < matrix[0].length; j++) sum += matrix[0][j];
   for (let i = 1; i < matrix.length; i++) {
