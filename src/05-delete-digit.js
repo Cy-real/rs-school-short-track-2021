@@ -9,7 +9,7 @@
  * For n = 152, the output should be 52
  *
  */
-function deleteDigit(/* n */) {
+function deleteDigit(n) {
   let str = n.toString().split('');
   let min = str[0];
   for (let i = 1; i < str.length; i++) {
